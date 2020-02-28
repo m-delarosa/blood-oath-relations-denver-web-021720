@@ -14,5 +14,10 @@ class BloodOath
         @@all
     end
 
-
+    # returns a String that is the initiation date of this 
+    # blood oath in the format YYYY-MM-DD.
+    def initiation_date
+        date.to_s
+    end
+ 
 end
